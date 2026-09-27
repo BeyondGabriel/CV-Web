@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CV profesional de Gabriel — Ingeniería de Software con Inteligencia Artificial">
+    <title>CV | Gabriel — Software & IA</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Barra de controles -->
+    <div class="toolbar">
+        <button id="langToggle" class="tool-btn" aria-label="Cambiar idioma">
+            <span class="lang-label">EN</span>
+        </button>
+        <button id="themeToggle" class="tool-btn" aria-label="Cambiar tema">
+            <span id="themeIcon">🌙</span>
+        </button>
+        <button id="printBtn" class="tool-btn" aria-label="Descargar PDF">
+            <span>📄 PDF</span>
+        </button>
+    </div>
+
+    <div class="cv-container">
+
+        <!-- ==================== HEADER ==================== -->
+        <header class="cv-header">
+            <div class="header-photo">
+                <img src="https://via.placeholder.com/150/1e3a5f/ffffff?text=FOTO" alt="Foto de perfil" id="profilePhoto">
+            </div>
+            <div class="header-info">
+                <h1 class="name">Gabriel</h1>
+                <p class="role" data-es="Ingeniería de Software con Inteligencia Artificial" data-en="Software Engineering with Artificial Intelligence">
+                    Ingeniería de Software con Inteligencia Artificial
+                </p>
+                <div class="contact-grid">
+                    <a href="mailto:tu-correo@ejemplo.com" class="contact-item">
+                        <span class="contact-icon">✉</span>
+                        <span>tu-correo@ejemplo.com</span>
+                    </a>
+                    <a href="https://wa.me/51999999999" target="_blank" rel="noopener" class="contact-item">
+                        <span class="contact-icon">☎</span>
+                        <span>+51 999 999 999</span>
+                    </a>
+                    <a href="https://github.com/BeyondGabriel" target="_blank" rel="noopener" class="contact-item">
+                        <span class="contact-icon">⌨</span>
+                        <span>github.com/BeyondGabriel</span>
+                    </a>
+                    <a href="https://linkedin.com/in/tu-perfil" target="_blank" rel="noopener" class="contact-item">
+                        <span class="contact-icon">in</span>
+                        <span>linkedin.com/in/tu-perfil</span>
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <!-- ==================== PERFIL ==================== -->
+        <section class="section">
+            <h2 class="section-title" data-es="Perfil Profesional" data-en="Professional Profile">Perfil Profesional</h2>
+            <p class="profile-text"
+               data-es="Estudiante de Ingeniería de Software con Inteligencia Artificial en SENATI, con experiencia práctica en automatización de procesos y mantenimiento de equipos en el sector público. Especializado en desarrollo web, aplicaciones móviles e integración de IA. Certificado en Python Essentials 1 por Cisco Networking Academy. Orientado a la transformación digital, la innovación y la excelencia profesional."
+               data-en="Software Engineering with Artificial Intelligence student at SENATI, with hands-on experience in process automation and equipment maintenance in the public sector. Specialized in web development, mobile applications, and AI integration. Certified in Python Essentials 1 by Cisco Networking Academy. Focused on digital transformation, innovation, and professional excellence.">
+                Estudiante de Ingeniería de Software con Inteligencia Artificial en SENATI, con experiencia práctica en automatización de procesos y mantenimiento de equipos en el sector público. Especializado en desarrollo web, aplicaciones móviles e integración de IA. Certificado en Python Essentials 1 por Cisco Networking Academy. Orientado a la transformación digital, la innovación y la excelencia profesional.
+            </p>
+        </section>
+
+        <!-- ==================== EXPERIENCIA ==================== -->
+        <section class="section">
+            <h2 class="section-title" data-es="Experiencia" data-en="Experience">Experiencia</h2>
+
+            <div class="experience-item">
+                <div class="exp-header">
+                    <div>
+                        <h3 class="exp-title" data-es="Practicante de Soporte TI y Desarrollo" data-en="IT Support & Development Intern">Practicante de Soporte TI y Desarrollo</h3>
+                        <p class="exp-company">UGEL — <span data-es="Organización pública" data-en="Public organization">Organización pública</span></p>
+                    </div>
+                    <span class="exp-date" data-es="2025 — Actualidad" data-en="2025 — Present">2025 — Actualidad</span>
+                </div>
+                <ul class="exp-list">
+                    <li data-es="Mantenimiento preventivo y correctivo de computadoras, laptops e impresoras." data-en="Preventive and corrective maintenance of desktops, laptops, and printers.">Mantenimiento preventivo y correctivo de computadoras, laptops e impresoras.</li>
+                    <li data-es="Desarrollo de software para automatizar procesos administrativos que se realizaban en papel." data-en="Software development to automate administrative processes previously done on paper.">Desarrollo de software para automatizar procesos administrativos que se realizaban en papel.</li>
+                    <li data-es="Optimización de flujos de trabajo mediante digitalización de información." data-en="Workflow optimization through information digitization.">Optimización de flujos de trabajo mediante digitalización de información.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- ==================== PROYECTOS ==================== -->
+        <section class="section">
+            <h2 class="section-title" data-es="Proyectos" data-en="Projects">Proyectos</h2>
+
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3 class="project-title" data-es="Sistema de Automatización Documental" data-en="Document Automation System">Sistema de Automatización Documental</h3>
+                    <p class="project-desc" data-es="Aplicación web para digitalizar y automatizar procesos administrativos en UGEL, reduciendo el uso de papel." data-en="Web application to digitize and automate administrative processes at UGEL, reducing paper usage.">Aplicación web para digitalizar y automatizar procesos administrativos en UGEL, reduciendo el uso de papel.</p>
+                    <div class="project-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">Web</span>
+                        <span class="tag">DB</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <h3 class="project-title" data-es="Circuito IoT con Arduino" data-en="IoT Circuit with Arduino">Circuito IoT con Arduino</h3>
+                    <p class="project-desc" data-es="Integración de sensores de temperatura y movimiento con luces LED mediante placas Arduino." data-en="Integration of temperature and motion sensors with LED lights using Arduino boards.">Integración de sensores de temperatura y movimiento con luces LED mediante placas Arduino.</p>
+                    <div class="project-tags">
+                        <span class="tag">Arduino</span>
+                        <span class="tag">IoT</span>
+                        <span class="tag">Sensors</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <h3 class="project-title" data-es="App Android" data-en="Android App">App Android</h3>
+                    <p class="project-desc" data-es="Desarrollo de aplicación móvil para Android con integración de servicios web." data-en="Android mobile application development with web services integration.">Desarrollo de aplicación móvil para Android con integración de servicios web.</p>
+                    <div class="project-tags">
+                        <span class="tag">Android</span>
+                        <span class="tag">Mobile</span>
+                        <span class="tag">API</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== FORMACIÓN ==================== -->
+        <section class="section">
+            <h2 class="section-title" data-es="Formación Académica" data-en="Education">Formación Académica</h2>
+            <div class="education-item">
+                <div class="exp-header">
+                    <div>
+                        <h3 class="exp-title" data-es="Ingeniería de Software con Inteligencia Artificial" data-en="Software Engineering with Artificial Intelligence">Ingeniería de Software con Inteligencia Artificial</h3>
+                        <p class="exp-company">SENATI</p>
+                    </div>
+                    <span class="exp-date" data-es="En curso" data-en="In progress">En curso</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== CERTIFICACIONES ==================== -->
+        <section class="section">
+            <h2 class="section-title" data-es="Certificaciones" data-en="Certifications">Certificaciones</h2>
+            <div class="cert-item">
+                <span class="cert-icon">🏅</span>
+                <div>
+                    <h3 class="cert-title">Python Essentials 1</h3>
+                    <p class="cert-issuer">Cisco Networking Academy</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== COMPETENCIAS ==================== -->
+        <section class="section">
+            <h2 class="section-title" data-es="Competencias Técnicas" data-en="Technical Skills">Competencias Técnicas</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 class="skill-cat-title" data-es="Desarrollo" data-en="Development">Desarrollo</h3>
+                    <div class="skill-list">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">HTML/CSS</span>
+                        <span class="skill-tag">Android</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="skill-cat-title" data-es="Inteligencia Artificial" data-en="Artificial Intelligence">Inteligencia Artificial</h3>
+                    <div class="skill-list">
+                        <span class="skill-tag">Modelos IA</span>
+                        <span class="skill-tag">Entrenamiento</span>
+                        <span class="skill-tag">Automatización</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="skill-cat-title" data-es="Bases de Datos" data-en="Databases">Bases de Datos</h3>
+                    <div class="skill-list">
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">Modelado</span>
+                        <span class="skill-tag">Gestión</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="skill-cat-title" data-es="Hardware" data-en="Hardware">Hardware</h3>
+                    <div class="skill-list">
+                        <span class="skill-tag">Arduino</span>
+                        <span class="skill-tag">Sensores</span>
+                        <span class="skill-tag">Mantenimiento</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== HABILIDADES BLANDAS ==================== -->
+        <section class="section">
+            <h2 class="section-title" data-es="Habilidades Blandas" data-en="Soft Skills">Habilidades Blandas</h2>
+            <div class="soft-skills">
+                <span class="soft-tag" data-es="Aprendizaje continuo" data-en="Continuous learning">Aprendizaje continuo</span>
+                <span class="soft-tag" data-es="Liderazgo" data-en="Leadership">Liderazgo</span>
+                <span class="soft-tag" data-es="Trabajo en equipo" data-en="Teamwork">Trabajo en equipo</span>
+                <span class="soft-tag" data-es="Adaptabilidad" data-en="Adaptability">Adaptabilidad</span>
+            </div>
+        </section>
+
+        <!-- ==================== IDIOMAS ==================== -->
+        <section class="section">
+            <h2 class="section-title" data-es="Idiomas" data-en="Languages">Idiomas</h2>
+            <div class="languages">
+                <div class="lang-item">
+                    <span class="lang-name" data-es="Español" data-en="Spanish">Español</span>
+                    <span class="lang-level" data-es="Nativo" data-en="Native">Nativo</span>
+                </div>
+                <div class="lang-item">
+                    <span class="lang-name" data-es="Inglés técnico" data-en="Technical English">Inglés técnico</span>
+                    <span class="lang-level" data-es="Básico (en mejora)" data-en="Basic (improving)">Básico (en mejora)</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== VALORES ==================== -->
+        <section class="section">
+            <h2 class="section-title" data-es="Valores Profesionales" data-en="Professional Values">Valores Profesionales</h2>
+            <div class="values-grid">
+                <div class="value-card">
+                    <span class="value-icon">★</span>
+                    <h3 data-es="Excelencia" data-en="Excellence">Excelencia</h3>
+                </div>
+                <div class="value-card">
+                    <span class="value-icon">🛡</span>
+                    <h3 data-es="Seguridad" data-en="Security">Seguridad</h3>
+                </div>
+                <div class="value-card">
+                    <span class="value-icon">💡</span>
+                    <h3 data-es="Innovación" data-en="Innovation">Innovación</h3>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <footer class="cv-footer">
+        <p data-es="CV generado con HTML, CSS y JavaScript — Desplegado en GitHub Pages" data-en="CV built with HTML, CSS and JavaScript — Deployed on GitHub Pages">CV generado con HTML, CSS y JavaScript — Desplegado en GitHub Pages</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
